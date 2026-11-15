@@ -91,7 +91,7 @@
         Bracket: Bracket {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(LEFT_BRACKET) &kp RIGHT_BRACKET>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET>;
             label = "BRACKET";
         };
 
@@ -126,7 +126,7 @@
         Sleep: Sleep {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp Q>;
+            bindings = <&kp LC(LG(Q))>;
             label = "SLEEP";
         };
     };
